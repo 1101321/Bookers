@@ -66,3 +66,7 @@ div.field, div.actions {
 textarea {
   resize: none;
 }
+
+.notice {
+  color: green;
+}
