@@ -56,6 +56,7 @@ th {
 h4 {
   margin-block-start: 0px;
   margin-block-end: 0px;
+  font-weight: normal;
 }
 
 div.field, div.actions {
