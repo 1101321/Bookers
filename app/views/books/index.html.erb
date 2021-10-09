@@ -14,8 +14,8 @@
       <td class="title"><%= book.title %></td>
       <td class="body"><%= book.body %></td>
       <td><%= link_to "Show", book_path(book.id) %></td>
-      <td></td>
-      <td></td>
+      <td><%= link_to "Edit", edit_book_path(book.id) %></td>
+      <td><%= link_to "Destroy" %></td>
     </tr>
     <% end %>
   </tbody>
