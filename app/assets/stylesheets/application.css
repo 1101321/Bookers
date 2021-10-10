@@ -45,6 +45,10 @@ th {
   padding-bottom: 5px;
 }
 
+tr, tb {
+  height: 25px;
+}
+
 .title {
   width: 192px;
 }
@@ -70,3 +74,33 @@ textarea {
 .notice {
   color: green;
 }
+
+.error_explanation {
+  width: 450px;
+  height:121px;
+  border: 2px solid red;
+  padding: 7px 7px 0 7px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+.error_explanation h2 {
+  font-size: 12px;
+  text-align: left;
+  padding: 5px 5px 5px 15px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+  
+}
+
+ul {
+  margin: 33px;
+}
+
+li {
+  font-size: 12px;
+  list-style: square;
+}
+
